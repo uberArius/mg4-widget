@@ -4,11 +4,11 @@
 
 ### Before installing
 
-Read [RISKS.md](RISKS.md). This is unofficial experimental software distributed **outside Google Play**. Installing an APK requires you to accept the risks of sideloading. Download only from this repository's [release page](https://github.com/uberArius/mg4-widget/releases/tag/v0.5.0). Do not disable Play Protect or other security checks to work around a warning you do not understand.
+Read [RISKS.md](RISKS.md). This is unofficial experimental software distributed **outside Google Play**. Installing an APK requires you to accept the risks of sideloading. Download only from this repository's [release page](https://github.com/uberArius/mg4-widget/releases/tag/v0.6.0). Do not disable Play Protect or other security checks to work around a warning you do not understand.
 
 ### Install
 
-1. On an Android 12+ phone, download `MG4-Widget-0.5.0-debug.apk` from the release assets. GitHub's “Source code” ZIP is **not** the installer.
+1. On an Android 12+ phone, download `MG4-Widget-0.6.0-debug.apk` from the release assets. GitHub's “Source code” ZIP is **not** the installer.
 2. Open the APK. If Android blocks installation from that browser/file manager, review the warning and, only if you accept it, enable **Allow from this source** for that specific app in system settings. Install the APK. You can turn that permission off again afterwards. Device or organization restrictions may prevent installation.
 3. Open MG4 Widget, read the first-use notice, tick **I accept the risks** and press **Continue**. Without acceptance, iSMART requests and periodic refresh are blocked. Existing testers must also accept the notice after updating to this version.
 4. The build is debug-signed for testing. Install updates over the existing app when signed with the same key; do not uninstall first unless you intend to erase local account data. Connections stop on **25 November 2026 at 00:00 UTC**, regardless of installation date.
@@ -38,11 +38,11 @@ Post the app version, phone/Android version, region, vehicle model, elapsed time
 
 ### Przed instalacją
 
-Przeczytaj [RISKS.md](RISKS.md). To nieoficjalna aplikacja eksperymentalna, udostępniana **poza Google Play**. Instalacja APK wymaga świadomego zaakceptowania ryzyka instalacji spoza sklepu. Pobieraj plik wyłącznie ze [strony wydania](https://github.com/uberArius/mg4-widget/releases/tag/v0.5.0). Nie wyłączaj Play Protect ani innych zabezpieczeń, aby ominąć niezrozumiałe ostrzeżenie.
+Przeczytaj [RISKS.md](RISKS.md). To nieoficjalna aplikacja eksperymentalna, udostępniana **poza Google Play**. Instalacja APK wymaga świadomego zaakceptowania ryzyka instalacji spoza sklepu. Pobieraj plik wyłącznie ze [strony wydania](https://github.com/uberArius/mg4-widget/releases/tag/v0.6.0). Nie wyłączaj Play Protect ani innych zabezpieczeń, aby ominąć niezrozumiałe ostrzeżenie.
 
 ### Instalacja
 
-1. Na telefonie z Androidem 12 lub nowszym pobierz `MG4-Widget-0.5.0-debug.apk` z załączników wydania. Archiwum „Source code” na GitHubie **nie jest** instalatorem.
+1. Na telefonie z Androidem 12 lub nowszym pobierz `MG4-Widget-0.6.0-debug.apk` z załączników wydania. Archiwum „Source code” na GitHubie **nie jest** instalatorem.
 2. Otwórz APK. Jeśli Android blokuje instalację z tej przeglądarki/menedżera plików, przeczytaj ostrzeżenie i tylko po akceptacji ryzyka włącz **Zezwalaj z tego źródła** dla tej konkretnej aplikacji. Zainstaluj APK. Później możesz ponownie wyłączyć to uprawnienie. Ograniczenia telefonu lub organizacji mogą uniemożliwiać instalację.
 3. Uruchom MG4 Widget, przeczytaj komunikat, zaznacz **Akceptuję ryzyko** i naciśnij **Przejdź do aplikacji**. Bez akceptacji nie są wysyłane żądania iSMART ani planowane odczyty okresowe. Dotychczasowi testerzy również zobaczą ten ekran po aktualizacji.
 4. Wersja jest podpisana kluczem debug do testów. Kolejne wersje z tym samym podpisem instaluj jako aktualizacje; odinstalowanie usuwa dane lokalne. Połączenia wygasają **25 listopada 2026 o 01:00 czasu polskiego (00:00 UTC)**, niezależnie od daty instalacji.

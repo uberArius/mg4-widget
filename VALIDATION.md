@@ -1,12 +1,11 @@
-# Validation — v0.5.0
+# Validation — v0.6.0 (26 October 2026)
 
-- Android debug APK and instrumentation APK built successfully.
-- 29 JVM unit tests passed. Android lint: no errors.
-- API 36 emulator instrumentation passed: consent blocks login before HTTP and periodic scheduling; 15-minute scheduling; cancellation at 0 + Bluetooth off; empty/all-tile configurations; legacy field migration; demo diagnostics; expiry blocks HTTP and cancels vehicle jobs.
-- First-use UI checked through Android UI inspection: Continue disabled until the checkbox is selected; accepting opens login. English and Polish notice text available. The account screen prevents screenshots, so a notice screenshot is not included.
-- Actual widget tap tested on emulator demo data: Refresh updates the stored reading while the launcher stays foreground; Heating opens ClimateActivity for confirmation.
-- Widget and custom MG-letter icon inspected visually in the emulator.
-- Login was reported working by the initial user in v0.4.1. Real vehicle readings, remote controls, regional accounts, physical Bluetooth, Samsung Fold/One UI and Android 17 have not been fully validated. Background timing is not guaranteed.
-- Tests used synthetic credentials/data and did not send commands to a real vehicle.
+- Android APK and test APK built; lint passed with no errors.
+- 33 JVM unit tests passed (0 failures). Four new tests cover drive OFF/ON/unknown, each tyre and the strict 2.4 bar boundary, every supported opening and non-triggering missing/climate data.
+- Emulator API 36 smoke tests passed: consent, scheduling, expiry, field migration and demo diagnostics.
+- Verified all 28 dashboard tile labels by scrolling, even though only 10 tiles were selected for the widget. Refresh button follows the complete list. App dashboard screenshot inspected.
+- Verified red widget background with only battery/range visible while a hidden tyre reports 2.3 bar and drive reports OFF. Screenshot inspected. Synthetic/demo data only.
+- Reused widget tile binding in the app dashboard; no changes to API commands.
+- Real vehicle readings and climate confirmation still require field testing. Cached warning data may be old; there is no guarantee of real-time safety monitoring.
 
-Runtime license inventory: 35 resolved dependency artifacts, with source-archive provenance and preserved notices. Application code is not in this repository.
+No application source is published. Test expiry remains 25 November 2026, 00:00 UTC.

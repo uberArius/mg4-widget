@@ -2,6 +2,8 @@
 
 ## ENG
 
+New in 0.6.0: the app dashboard always displays all 28 selectable tiles in two columns, with refresh and heating below the list. Widget tile selection remains independent. If the last reported drive state is OFF and any tyre is below 2.4 bar, the locks are unlocked or any door/window (including sunroof when reported), bonnet or boot is open, the outer widget/dashboard background turns red. The rule uses all stored readings, including hidden tiles. Exactly 2.4 bar is not below the threshold. Missing drive status is not assumed OFF. Cached readings can be old: check their timestamps; this is not a live safety monitor.
+
 MG4 Widget is an independent Android application focused on a configurable home-screen widget. It connects directly to the selected iSMART region and vehicle. No MQTT or additional server is needed.
 
 Choose from 28 tiles and arrange enabled tiles by dragging or using arrows. Combined tiles show both temperatures, four tyre pressures, four doors, four door windows and front-seat heating levels. Tyres, doors and windows use a physical 2×2 layout: front at the top, left on the left. Set the correct steering-wheel side for UK/Australia. The charging-plan tile shows the mode and saved hours when returned by the vehicle; a target-SOC mode does not promise a fixed end time.
@@ -17,6 +19,8 @@ A diagnostic scan reads five known vehicle-response groups and reports values or
 This test build expires on **25 November 2026 at 00:00 UTC**. The main UI is Polish. Actual vehicle-data retrieval and region/device compatibility still require field testing. Read [risks and responsibility](RISKS.md) before use.
 
 ## PL
+
+Nowość 0.6.0: panel aplikacji zawsze pokazuje wszystkie 28 dostępnych kafelków w dwóch kolumnach, z odświeżaniem i ogrzewaniem pod listą. Wybór kafelków widżetu pozostaje niezależny. Gdy ostatnio odczytany napęd jest wyłączony i dowolna opona ma poniżej 2,4 bar, zamki są odblokowane lub otwarte są dowolne drzwi/szyba (także szyberdach, jeśli raportowany), maska albo bagażnik, zewnętrzne tło widżetu/panelu staje się czerwone. Reguła obejmuje wszystkie zapisane odczyty, także ukryte kafelki. Dokładnie 2,4 bar nie uruchamia alarmu. Brak stanu napędu nie jest uznawany za wyłączenie. Dane mogą być stare: sprawdzaj ich czas; nie jest to monitor bezpieczeństwa działający w czasie rzeczywistym.
 
 MG4 Widget to niezależna aplikacja Android skoncentrowana na konfigurowalnym widżecie pulpitu. Łączy się bezpośrednio z wybranym regionem iSMART i samochodem. Nie wymaga MQTT ani dodatkowego serwera.
 

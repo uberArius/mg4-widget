@@ -2,7 +2,7 @@
 
 **An independent Android home-screen widget for MG iSMART vehicles.**
 
-[Download test APK](https://github.com/uberArius/mg4-widget/releases/tag/v0.5.0) · [Description — ENG / PL](DESCRIPTION.md) · [Installation & guide — ENG / PL](INSTALLATION.md) · [Risks — ENG / PL](RISKS.md)
+[Download test APK](https://github.com/uberArius/mg4-widget/releases/tag/v0.6.0) · [Description — ENG / PL](DESCRIPTION.md) · [Installation & guide — ENG / PL](INSTALLATION.md) · [Risks — ENG / PL](RISKS.md)
 
 > **Experimental, unofficial software.** Read [the risks](RISKS.md) before installing or connecting an account. Service access may be removed at any time. Prefer an additional iSMART account to avoid session conflicts with the manufacturer's app.
 >
@@ -10,6 +10,8 @@
 
 ## At a glance
 
+- A red widget background warns of low tyre pressure (< 2.4 bar), unlocked locks or open doors/windows/bonnet/boot when the last reported drive state is OFF, even if those tiles are hidden. Unknown drive state does not trigger it.
+- The app shows every selectable tile in two columns, with refresh and heating actions below.
 - One configurable sea-blue widget: choose and reorder tiles, hide icons or action buttons, resize to one or two columns.
 - Battery, range, cabin/outside temperatures, tyre pressures, doors, windows, seats, charging schedule and more — depending on vehicle/API availability.
 - Manual refresh from the widget, optional 15–60 minute background refresh, and refresh after disconnecting a selected car Bluetooth device.
@@ -19,7 +21,7 @@
 
 ## Current release
 
-**0.5.0 — public testing prerelease.** Android 12 or later (API 31+). The app currently has a Polish interface; first-use risk acceptance is available in Polish and English. Documentation is bilingual.
+**0.6.0 — public testing prerelease.** Android 12 or later (API 31+). The app currently has a Polish interface; first-use risk acceptance is available in Polish and English. Documentation is bilingual.
 
 Intended initial test vehicle: MG4 XPOWER 2024, Europe. EU/UK and AU/NZ server selection is implemented, but all regions, vehicles and shared-account permissions are **not** field-verified. Other models may expose only some readings; remote controls are limited to recognized MG4/EH32 vehicles.
 
@@ -29,11 +31,13 @@ Login has been reported working by the initial tester. Slow or unavailable vehic
 
 ![Sea-blue widget with sample readings](docs/images/widget-preview.png)
 
-Demo data only, from v0.5.0. One-column mode hides the model name. The app icon uses custom angular MG letters, not the manufacturer's emblem.
+Demo data only, from v0.6.0. One-column mode hides the model name. The app icon uses custom angular MG letters, not the manufacturer's emblem.
+
+[Full two-column app dashboard](docs/images/app-dashboard.png) · [Red warning with a hidden tyre tile](docs/images/widget-alert.png)
 
 ## Download and install
 
-Open [release v0.5.0](https://github.com/uberArius/mg4-widget/releases/tag/v0.5.0) and download `MG4-Widget-0.5.0-debug.apk`. The build is debug-signed for testing. Follow the [installation guide](INSTALLATION.md), review the risks and accept them on first launch. APKs are release assets, not committed application source.
+Open [release v0.6.0](https://github.com/uberArius/mg4-widget/releases/tag/v0.6.0) and download `MG4-Widget-0.6.0-debug.apk`. The build is debug-signed for testing. Follow the [installation guide](INSTALLATION.md), review the risks and accept them on first launch. APKs are release assets, not committed application source.
 
 This repository contains documentation, notices, preview images and download links. **The application source code is not published.** GitHub's automatically generated “Source code” archives contain only this repository's public materials.
 
