@@ -1,13 +1,17 @@
-# v0.7.1 — axle pressure thresholds and clearer labels
+# v0.7.4 — combined charging tile and adaptive MG icon
 
 ## ENG
-- Separate front/rear tyre warning thresholds, both defaulting to 2.4 bar. Settings immediately update the widget and dashboard using cached readings.
-- “Logowanie i dane konta” opens a separate account screen with retained credentials, masked password and explicit WYCZYŚĆ DANE action. Back returns to the dashboard; reopening from the widget also restores the dashboard.
-- Bluetooth picker close button renamed to “Zamknij”.
+- Charging, battery power and remaining time are merged into one tile. Existing selections migrate without duplicates.
+- Two rows: MOC (kW) and KONIEC (remaining minutes). The original power sign is preserved.
+- Red tile: Trwa ładowanie. Blue tile: Nie ładuje; unavailable status: Stan nieznany. Colours use received data.
+- Adaptive app icon: full background with larger angular MG letters, without a square inside the launcher shape.
+- Main project preview replaced with the screenshot supplied by the user.
 
 ## PL
-- Osobne progi alarmu dla przednich i tylnych opon, domyślnie po 2,4 bar. Zapis od razu aktualizuje alarm widżetu i panelu na podstawie ostatnich odczytów.
-- „Logowanie i dane konta” otwiera osobny ekran z zachowanymi danymi, ukrytym hasłem i przyciskiem WYCZYŚĆ DANE. Cofnięcie wraca do panelu; ponowne otwarcie z widżetu również prowadzi do panelu.
-- Przycisk zamknięcia wyboru Bluetooth ma napis „Zamknij”.
+- Ładowanie, Moc baterii i Do końca połączone w jeden kafelek. Wybrane wcześniej kafelki łączą się bez duplikatów.
+- Dwa wiersze: MOC (kW) i KONIEC (pozostałe minuty). Znak mocy jest zachowany.
+- Czerwony kafelek: Trwa ładowanie. Niebieski: Nie ładuje; brak odczytu stanu: Stan nieznany. Kolory wynikają z danych samochodu.
+- Adaptacyjna ikona: pełne tło i większe kanciaste litery MG, bez kwadratu wewnątrz kształtu ikony.
+- Główny podgląd projektu zastąpiony zrzutem dostarczonym przez użytkownika.
 
-Android 12+. Debug-signed test build. Test expiry unchanged: 25 November 2026, 00:00 UTC (01:00 Poland). Unofficial API; readings and background work are not guaranteed. No application source published. Third-party notices included in APK and documentation archive.
+Android 12+. Polish main UI. Debug-signed test build. Expiry unchanged: 25 November 2026, 00:00 UTC (01:00 Poland). Unofficial API; readings and background work are not guaranteed. No application source published. Third-party notices remain included in APK and documentation archive.

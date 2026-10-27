@@ -1,2 +1,2 @@
-436afeda6da5717ceec35bef85a0157ee3c78412582404d6b538f7c600f3ba46  MG4-Widget-0.7.1-debug.apk
-562c50cefc1082de7e5776ad202d839c18a5c0a46ca18a6fa9f7c027770a864a  MG4-Widget-0.7.1-docs-and-licenses.zip
+92be17e8cc790eec2e238d28e49cb0338de55a532b4470526e1462c09db7779a  MG4-Widget-0.7.4-debug.apk
+7c8f9eea9c4ae3655d15365a7946eefe76decf48b6d884f25c886bf0a7cb5c48  MG4-Widget-0.7.4-docs-and-licenses.zip

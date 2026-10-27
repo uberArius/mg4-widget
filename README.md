@@ -2,7 +2,7 @@
 
 **An independent Android home-screen widget for MG iSMART vehicles.**
 
-[Download test APK](https://github.com/uberArius/mg4-widget/releases/tag/v0.7.1) · [Description — ENG / PL](DESCRIPTION.md) · [Installation & guide — ENG / PL](INSTALLATION.md) · [Risks — ENG / PL](RISKS.md)
+[Download test APK](https://github.com/uberArius/mg4-widget/releases/tag/v0.7.4) · [Description — ENG / PL](DESCRIPTION.md) · [Installation & guide — ENG / PL](INSTALLATION.md) · [Risks — ENG / PL](RISKS.md)
 
 > **Experimental, unofficial software.** Read [the risks](RISKS.md) before installing or connecting an account. Service access may be removed at any time. Prefer an additional iSMART account to avoid session conflicts with the manufacturer's app.
 >
@@ -23,9 +23,11 @@
 
 Separate front/rear tyre alarm thresholds are available under **Alarm ciśnienia opon** (1.0–4.0 bar, in 0.1 bar steps). **Logowanie i dane konta** opens account options; saved login details remain in the form (password masked); only WYCZYŚĆ DANE removes them. The Bluetooth picker closes with **Zamknij**.
 
+The combined charging tile shows **MOC** (battery power, kW) and **KONIEC** (remaining minutes). Its title is **Trwa ładowanie** while charging (red), **Nie ładuje** when inactive (blue), or **Stan nieznany** if the status is unavailable. The adaptive MG app icon fills the launcher shape.
+
 ## Current release
 
-**0.7.1 — public testing prerelease.** Android 12 or later (API 31+). The app currently has a Polish interface; first-use risk acceptance is available in Polish and English. Documentation is bilingual.
+**0.7.4 — public testing prerelease.** Android 12 or later (API 31+). The app currently has a Polish interface; first-use risk acceptance is available in Polish and English. Documentation is bilingual.
 
 Intended initial test vehicle: MG4 XPOWER 2024, Europe. EU/UK and AU/NZ server selection is implemented, but all regions, vehicles and shared-account permissions are **not** field-verified. Other models may expose only some readings; remote controls are limited to recognized MG4/EH32 vehicles.
 
@@ -33,15 +35,15 @@ Login has been reported working by the initial tester. Slow or unavailable vehic
 
 ## Preview
 
-![Sea-blue widget with sample readings](docs/images/widget-preview.png)
+![MG4 Electric widget with combined charging readings](docs/images/widget-preview.png)
 
-Demo data only. One-column mode hides the model name. The app icon uses custom angular MG letters, not the manufacturer's emblem.
+Screenshot supplied by the user. Negative battery power is displayed with the sign reported by the data calculation. One-column mode hides the model name. The app icon uses custom angular MG letters, not the manufacturer's emblem.
 
-[Full two-column app dashboard](docs/images/app-dashboard.png) · [Red warning and the triggering tyre tile](docs/images/widget-alert.png)
+[Earlier demo: two-column app dashboard](docs/images/app-dashboard.png) · [Earlier demo: red warning and the triggering tyre tile](docs/images/widget-alert.png)
 
 ## Download and install
 
-Open [release v0.7.1](https://github.com/uberArius/mg4-widget/releases/tag/v0.7.1) and download `MG4-Widget-0.7.1-debug.apk`. The build is debug-signed for testing. Follow the [installation guide](INSTALLATION.md), review the risks and accept them on first launch. APKs are release assets, not committed application source.
+Open [release v0.7.4](https://github.com/uberArius/mg4-widget/releases/tag/v0.7.4) and download `MG4-Widget-0.7.4-debug.apk`. The build is debug-signed for testing. Follow the [installation guide](INSTALLATION.md), review the risks and accept them on first launch. APKs are release assets, not committed application source.
 
 This repository contains documentation, notices, preview images and download links. **The application source code is not published.** GitHub's automatically generated “Source code” archives contain only this repository's public materials.
 
