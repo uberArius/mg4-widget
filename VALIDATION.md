@@ -1,11 +1,9 @@
-# Validation — v0.7.0 (26 October 2026)
+# Validation — v0.7.1 (27 October 2026)
 
-- Android APK and test APK built; lint passed with no errors.
-- 37 JVM unit tests passed (0 failures). Coverage includes drive OFF/ON/unknown, the strict 2.4 bar boundary, grouped alarm causes, two-decimal pressure display, selection/prepending and reordering.
-- API 36 emulator smoke tests passed: consent, scheduling, expiry, field migration and demo diagnostics.
-- Emulator touch checks confirmed adding an unselected tile at the top, deselecting, holding/dragging to reorder, and persistence after restarting the activity.
-- Inspected the dashboard with a red tyre tile, a named warning cause, checkmarks and selection positions. Hidden tyre data still triggers the outer warning.
-- No changes to vehicle API commands. No real vehicle or account was used in these tests.
-- Real vehicle readings and climate confirmation still require field testing. Cached warning data may be old; this is not guaranteed real-time safety monitoring.
+- APK built successfully; Android lint passed.
+- 38 JVM tests passed, including independent axle thresholds, strict boundary comparisons and matching tile/background alarms.
+- API 36 emulator checks passed for stored threshold defaults and persistence, retained account credentials with masked password, and explicit clearing of account data. Only synthetic credentials were used; no HTTP login or vehicle command.
+- Existing consent, scheduling, expiry and demo diagnostics checks passed.
+- Real vehicle behavior remains subject to field testing; warning data can be stale.
 
-No application source is published. Test expiry remains 25 November 2026, 00:00 UTC.
+No application source published. Test expiry remains 25 November 2026, 00:00 UTC.
