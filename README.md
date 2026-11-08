@@ -82,6 +82,16 @@ Independent, unofficial, experimental software. Not affiliated with or endorsed 
 
 Niezależna aplikacja na Androida z widżetem ekranu głównego dla samochodów MG obsługiwanych przez iSMART (Europa/UK oraz Australia/NZ). Łączy się bezpośrednio z API iSMART — bez MQTT, bez własnego serwera i bez pośredników. Interfejs jest dostępny po polsku i angielsku.
 
+Ten projekt został stworzony z wykorzystaniem AI. Jeśli nie ufasz gotowej aplikacji albo chcesz dodać nowe funkcje lub wprowadzić własne zmiany, po prostu uruchom swojego agenta AI i wydaj mu polecenie, na przykład takie:
+
+"Chcę samodzielnie zbudować aplikację na podstawie tego projektu: https://github.com/uberArius/mg4-widget
+
+Przeanalizuj projekt pod kątem bezpieczeństwa, potencjalnych luk, podejrzanego kodu oraz możliwości nawiązywania połączeń z zewnętrznymi adresami lub serwerami, które nie są niezbędne do prawidłowego działania aplikacji.
+
+Następnie dodaj motyw kolorystyczny oparty na odcieniach zieleni oraz żółtą gumową kaczuszkę jako logo aplikacji.
+
+Zbuduj gotową do zainstalowania wersję aplikacji na mój telefon i przygotuj szczegółową instrukcję, krok po kroku, jak zainstalować ją na moim konkretnym modelu telefonu."
+
 ### Zrzuty ekranu
 
 ![Widżet na pulpicie — angielski](docs/screenshots/widget-preview-en.png)
