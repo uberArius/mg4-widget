@@ -4,6 +4,12 @@ Niezależna aplikacja na Androida z widżetem ekranu głównego dla samochodów 
 
 *An independent Android app and home-screen widget for MG iSMART vehicles (EU/UK and AU/NZ). It talks directly to the iSMART API — no MQTT broker and no personal server. The UI is available in Polish and English.*
 
+## Zrzuty ekranu / Screenshots
+
+![Widżet na pulpicie — angielski](docs/screenshots/widget-preview-en.png)
+
+![Pulpit aplikacji — angielski](docs/screenshots/app-v08-en.png)
+
 ## Funkcje
 
 - **Widżet ekranu głównego** — jeden konfigurowalny widżet „MG · morski” / „MG · sea-blue”: wybór i kolejność kafelków, ukrywanie ikon i przycisków, jedna lub dwie kolumny, przewijanie.
