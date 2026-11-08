@@ -1,0 +1,49 @@
+# Description / Opis
+
+## ENG
+
+The interface is available in Polish and English: automatic selection follows the system language, or a manual Auto / Polski / English switch is available in the menu. There is no test-time restriction.
+
+Charging, battery power and remaining time share one tile with MOC and KONIEC rows. Its title and red/blue background follow the reported charging state; unavailable status is labelled unknown. The app uses an adaptive MG icon.
+
+Alarm-causing tiles also turn red. Tyre pressures show hundredths (e.g. 2.38 bar) so rounding to 2.4 no longer hides a value below the threshold. The app names the warning causes above the dashboard.
+
+The app dashboard always displays all 25 selectable tiles in two columns, with refresh and heating below the list. Widget tile selection remains independent. If the last reported drive state is OFF and any tyre is below its axle threshold (default 2.4 bar), the locks are unlocked or any door/window (including sunroof when reported), bonnet or boot is open, the outer widget/dashboard background turns red. The rule uses all stored readings, including hidden tiles. A reading equal to the selected threshold does not trigger the alarm. Missing drive status is not assumed OFF. Cached readings can be old: check their timestamps; this is not a live safety monitor.
+
+MG4 Widget is an independent Android application focused on a configurable home-screen widget. It connects directly to the selected iSMART region and vehicle. No MQTT or additional server is needed.
+
+Choose from 25 tiles by tapping them directly in the app dashboard. A checkmark and position identify selected tiles. Newly selected tiles go first. Hold and drag selected tiles to reorder them; changes save immediately. Combined tiles show both temperatures, four tyre pressures, four doors, four door windows and front-seat heating levels. Tyres, doors and windows use a physical 2×2 layout: front at the top, left on the left. Set the correct steering-wheel side for UK/Australia. The charging-plan tile shows the mode and saved hours when returned by the vehicle; a target-SOC mode does not promise a fixed end time.
+
+The widget adapts to one or two columns. In one column only “MG” remains in the header. Icons and the refresh/heating buttons can be hidden. Unlocking, active climate control and charging are highlighted using received data. Missing or stale readings are not treated as current zero values.
+
+Refresh can be manual, periodic (0 = off; otherwise 15–60 minutes) or triggered by disconnection of a selected paired car Bluetooth device. Bluetooth is a clue that a trip ended, not proof that the driver left. Android may delay background work. Active polling may wake the car and drain its 12 V battery faster.
+
+The heating button opens a confirmation screen. A saved profile can include cabin temperature, windscreen demisting and front-seat heating where supported. Capability detection is incomplete; unknown seat support requires an explicit user test option. No automatic command probing is performed. Command acceptance alone is not proof of operation: subsequent vehicle readings are checked. A timeout does not prove the command failed.
+
+A diagnostic scan reads five known vehicle-response groups and reports values or missing/error responses for 175 raw fields plus interpreted readings. Availability varies by model, region and account permissions. It does not claim to enumerate every service or account function provided by MG.
+
+Actual vehicle-data retrieval and region/device compatibility still require field testing. Read [risks and responsibility](RISKS.md) before use.
+
+## PL
+
+Interfejs jest dostępny po polsku i angielsku: wybór automatyczny podąża za językiem systemu, a w menu jest też ręczny przełącznik Auto / Polski / English. Nie ma ograniczenia czasu działania.
+
+Ładowanie, moc baterii i czas do końca mają wspólny kafelek z wierszami MOC i KONIEC. Tytuł i czerwone/niebieskie tło odpowiadają odczytanemu stanowi ładowania; brak stanu oznaczany jest jako nieznany. Aplikacja ma adaptacyjną ikonę MG.
+
+Czerwone stają się również kafelki będące przyczyną alarmu. Ciśnienia mają dwa miejsca po przecinku (np. 2,38 bar), aby zaokrąglenie do 2,4 nie ukrywało wartości poniżej progu. Aplikacja wymienia przyczyny nad panelem.
+
+Panel aplikacji zawsze pokazuje wszystkie 25 dostępnych kafelków w dwóch kolumnach, z odświeżaniem i ogrzewaniem pod listą. Wybór kafelków widżetu pozostaje niezależny. Gdy ostatnio odczytany napęd jest wyłączony i dowolna opona ma poniżej progu dla swojej osi (domyślnie 2,4 bar), zamki są odblokowane lub otwarte są dowolne drzwi/szyba (także szyberdach, jeśli raportowany), maska albo bagażnik, zewnętrzne tło widżetu/panelu staje się czerwone. Reguła obejmuje wszystkie zapisane odczyty, także ukryte kafelki. Wartość równa ustawionemu progowi nie uruchamia alarmu. Brak stanu napędu nie jest uznawany za wyłączenie. Dane mogą być stare: sprawdzaj ich czas; nie jest to monitor bezpieczeństwa działający w czasie rzeczywistym.
+
+MG4 Widget to niezależna aplikacja Android skoncentrowana na konfigurowalnym widżecie pulpitu. Łączy się bezpośrednio z wybranym regionem iSMART i samochodem. Nie wymaga MQTT ani dodatkowego serwera.
+
+Wybierz spośród 25 kafelków, dotykając ich bezpośrednio w panelu aplikacji. Znacznik ✓ i numer oznaczają wybór do widżetu. Nowo wybrany kafelek trafia na początek. Przytrzymaj i przeciągnij wybrany kafelek, aby zmienić kolejność; zmiany zapisują się od razu. Zbiorcze kafelki obejmują obie temperatury, cztery ciśnienia opon, cztery drzwi, cztery szyby drzwiowe i poziomy ogrzewania przednich foteli. Opony, drzwi i szyby mają układ 2×2: przód u góry, lewa strona po lewej. Dla UK/Australii ustaw właściwą stronę kierownicy. Plan ładowania pokazuje tryb i zapisane godziny, jeśli auto je zwraca; tryb docelowego SOC nie oznacza stałej godziny końca.
+
+Widżet dopasowuje się do jednej lub dwóch kolumn. Przy jednej kolumnie w nagłówku zostaje tylko „MG”. Ikony i przyciski odświeżania/ogrzewania można ukryć. Odblokowane zamki, aktywny klimat i ładowanie są wyróżniane na podstawie odczytów. Brakujące lub stare dane nie są traktowane jako aktualne zero.
+
+Odświeżanie może być ręczne, okresowe (0 = wyłączone; pozostałe wartości 15–60 minut) lub po rozłączeniu wybranego sparowanego BT auta. Rozłączenie jest wskazówką końca jazdy, nie dowodem wysiadania. Android może opóźnić pracę w tle. Aktywne odczyty mogą budzić auto i szybciej zużywać akumulator 12 V.
+
+Przycisk ogrzewania otwiera ekran potwierdzenia. Profil może obejmować temperaturę kabiny, nawiew na szybę i ogrzewanie przednich foteli, jeśli są obsługiwane. Wykrywanie wyposażenia nie jest pełne; nieznana obsługa foteli wymaga jawnego włączenia opcji testu. Nie wysyłamy automatycznych poleceń próbnych. Przyjęcie komendy nie jest potwierdzeniem działania: aplikacja sprawdza późniejszy odczyt. Timeout nie dowodzi niewykonania komendy.
+
+Diagnostyka odczytuje pięć znanych grup odpowiedzi pojazdu i pokazuje wyniki lub braki/błędy dla 175 surowych pól oraz interpretowanych odczytów. Dostępność zależy od modelu, regionu i uprawnień konta. Nie jest to lista wszystkich usług i funkcji konta MG.
+
+Pobieranie danych rzeczywistego auta i zgodność z regionami/urządzeniami wymagają dalszych testów. Przed użyciem przeczytaj [ostrzeżenia i odpowiedzialność](RISKS.md).

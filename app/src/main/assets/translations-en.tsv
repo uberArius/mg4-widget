@@ -1,0 +1,300 @@
+Bateria / Cel|Battery / Target
+Zasięg paliwowy|Fuel range
+Zasięg|Range
+W kabinie|Inside
+Na zewnątrz|Outside
+Zamki|Locks
+Klimatyzacja|Climate
+Przebieg|Mileage
+Akumulator 12 V|12 V battery
+Ładowanie|Charging
+Do końca|Remaining
+Moc baterii|Battery power
+Cel ładowania|Charge target
+Opona lewa przód|Front left tyre
+Opona prawa przód|Front right tyre
+Opona lewa tył|Rear left tyre
+Opona prawa tył|Rear right tyre
+Drzwi kierowcy|Driver door
+Drzwi pasażera|Passenger door
+Drzwi lewe tył|Rear left door
+Drzwi prawe tył|Rear right door
+Maska|Bonnet
+Bagażnik|Boot
+Szyba kierowcy|Driver window
+Szyba pasażera|Passenger window
+Szyba lewa tył|Rear left window
+Szyba prawa tył|Rear right window
+Szyberdach|Sunroof
+Światła mijania|Low beam
+Światła drogowe|High beam
+Światła pozycyjne|Position lights
+Ogrzewanie tylnej szyby|Rear window heating
+Fotel lewy · grzanie|Left seat heating
+Fotel prawy · grzanie|Right seat heating
+Hamulec postojowy|Parking brake
+Napęd aktywny|Drive active
+Bieżąca podróż|Current trip
+Paliwo|Fuel
+Temperatury|Temperatures
+Opony · bar|Tyres · bar
+Drzwi|Doors
+Szyby|Windows
+Fotele|Seats
+Plan ładowania|Charging schedule
+Tryb harmonogramu|Schedule mode
+Start harmonogramu|Schedule start
+Koniec harmonogramu|Schedule end
+Zamknięte|Closed
+Zamk.|Closed
+Otwarte|Open
+Włączone|On
+Wyłączone|Off
+Wyłączona|Off
+Włączona|On
+Włączony|On
+Wyłączony|Off
+Nawiew|Fan
+Odszranianie|Defrost
+Do celu SOC|To target SOC
+cel SOC|target SOC
+Nieznany|Unknown
+Stan nieznany|Unknown state
+Trwa ładowanie|Charging
+Nie ładuje|Not charging
+MOC:|POWER:
+KONIEC:|REMAINING:
+Wew.|In
+Zew.|Out
+L:|L:
+P:|R:
+brak odczytu|no reading
+Niepełne · |Incomplete · 
+czas nieznany|time unknown
+czas pomiaru nieznany|measurement time unknown
+Najstarszy · |Oldest · 
+Starsze · |Older · 
+Twój samochód pod ręką|Your car at a glance
+Morski widżet · ustawienia samochodu|Sea-blue widget · vehicle settings
+DANE PRZYKŁADOWE|SAMPLE DATA
+Odśwież dane samochodu|Refresh vehicle data
+Ogrzewanie kabiny|Cabin heating
+Sprawdź wszystkie parametry auta|Check all vehicle parameters
+Twój widżet|Your widget
+Dodaj widżet na pulpit|Add widget to home screen
+Dodaj widżet z menu ekranu głównego.|Add the widget from your home screen menu.
+Alarm ciśnienia opon|Tyre pressure alarm
+Profil ogrzewania|Heating profile
+Aktualizacje i Bluetooth|Updates and Bluetooth
+Wygląd widżetu|Widget appearance
+Logowanie i dane konta|Login and account details
+Wróć do aplikacji|Back to app
+Połącz konto iSMART|Connect iSMART account
+Dane logowania pozostają zaszyfrowane na telefonie. Aplikacja łączy się bezpośrednio z serwerem iSMART.|Credentials stay encrypted on your phone. The app connects directly to the iSMART server.
+Logowanie na konto główne wiąże się z wylogowaniem z aplikacji MG. Dodaj w aplikacji MG konto dodatkowe i użyj je do widżetu.|Logging in with the main account signs you out of the MG app. Add a secondary account in the MG app and use it for the widget.
+Dostępne odczyty i sterowanie zależą od uprawnień udostępnionego auta.|Available readings and controls depend on shared-vehicle permissions.
+E-mail lub numer telefonu|Email or phone number
+Hasło iSMART|iSMART password
+Pokaż hasło|Show password
+Kod kraju numeru telefonu · 48 = Polska|Phone country code · 48 = Poland
+Np. 48|e.g. 48
+Numer wpisz bez kodu kraju. Kod nie jest używany przy logowaniu e-mailem.|Enter the number without the country code. This code is not used for email login.
+Połącz z iSMART|Connect to iSMART
+Logowanie…|Signing in…
+Wybierz samochód|Select vehicle
+WYCZYŚĆ DANE|CLEAR DATA
+Wejście na ten ekran nie usuwa danych. WYCZYŚĆ DANE wylogowuje i usuwa zapisane dane konta oraz samochodu z telefonu.|Opening this screen keeps your details. CLEAR DATA signs out and removes saved account and vehicle data from this phone.
+Zobacz widżety w trybie DEMO|Preview widgets in DEMO mode
+To niezależna aplikacja, nie oficjalny produkt MG. Równoległe logowanie w iSMART może zakończyć sesję — wtedy poprosimy o ponowne logowanie.|This independent app is not an official MG product. Another iSMART login may end the session and require you to sign in again.
+Informacje o projekcie i licencje|About and licences
+Źródła rozwiązań · MIT|Sources and attribution · MIT
+Zamknij|Close
+Anuluj|Cancel
+Zapisz|Save
+Gotowe|Done
+Wróć|Back
+Europa / UK|Europe / UK
+Australia / Nowa Zelandia|Australia / New Zealand
+Bluetooth Twojego MG4|Your MG4 Bluetooth
+Urządzenie|Device
+Włącz Bluetooth i sparuj samochód w ustawieniach telefonu.|Enable Bluetooth and pair the car in your phone settings.
+Najpierw sparuj samochód w ustawieniach Bluetooth.|First pair your car in Bluetooth settings.
+Nie udało się wykonać operacji.|Unable to complete the operation.
+Nie udało się połączyć. Sprawdź internet i dane konta.|Unable to connect. Check internet access and account details.
+Region konta: |Account region: 
+. Zmiana regionu wymaga wylogowania. Mini i Standard zastępuje jeden widżet — dodaj go ponownie, jeśli korzystałeś z tych wariantów.|. Sign out to change region. One widget replaces Mini and Standard; add it again if you used those versions.
+Alarm przy wyłączonym napędzie, gdy ciśnienie jest niższe od progu dla danej osi. Domyślnie 2,4 bar z przodu i z tyłu. Zmiana od razu przelicza ostatnie odczyty, bez łączenia z autem.|Warns when drive is OFF and pressure is below the axle threshold. Defaults to 2.4 bar front and rear. Changes immediately reassess stored readings without contacting the car.
+Próg — opony przednie|Threshold — front tyres
+Próg — opony tylne|Threshold — rear tyres
+Przód:|Front:
+Tył:|Rear:
+Przycisk widżetu otwiera ten zapisany profil do uruchomienia. Wyłączony przełącznik pomija funkcję; poziom 0 wysyła wyłączenie fotela.|The widget button opens this saved profile for activation. An unchecked option skips that function; seat level 0 sends an OFF command.
+Temperatura kabiny|Cabin temperature
+Temperatura docelowa|Target temperature
+Temperatura:|Temperature:
+Nawiew / odszranianie szyby|Windscreen ventilation / defrost
+Tryb szyby ma pierwszeństwo przed temperaturą: profil API używa stałego indeksu 8 (MG4: 22°C) i nawiewu 5.|Defrost takes priority over temperature: the API profile uses fixed index 8 (MG4: 22°C) and fan setting 5.
+Kierownica po prawej (UK / Australia)|Right-hand drive (UK / Australia)
+Auto zgłasza fotele z poziomami 0–3.|Vehicle reports seat levels 0–3.
+Auto zgłasza fotele OFF / ON.|Vehicle reports OFF / ON seats.
+Auto nie zgłasza rozpoznanego wyposażenia foteli. Nie wysyłamy prób automatycznie.|Recognised seat equipment is not reported. Test commands are not sent automatically.
+Zezwól na mój test foteli (0 / 1)|Allow my seat test (0 / 1)
+Fotel kierowcy|Driver seat
+Fotel pasażera|Passenger seat
+Pominięty fotel zachowa świeżo odczytany stan. Gdy nie można go ustalić, komenda foteli nie zostanie wysłana. Sterowanie w tej wersji obejmuje serię MG4 / EH32.|An omitted seat keeps its freshly read state. If that state cannot be determined, no seat command is sent. Controls support the MG4 / EH32 series.
+Praca w tle:|Background operation:
+ograniczona przez Androida|restricted by Android
+brak zgłoszonej blokady Androida|no restriction reported by Android
+Optymalizacja baterii:|Battery optimisation:
+wyłączona dla aplikacji|disabled for this app
+aktywna|active
+Odświeżanie działa przez systemowe zadania w tle; Android może je opóźnić. Przy opóźnieniach ustaw Bateria → Bez ograniczeń. Na Samsungu usuń aplikację z uśpionych/głęboko uśpionych i dodaj do Nigdy nieusypianych. Nie możemy automatycznie zmienić ani sprawdzić wszystkich ustawień One UI. Dla BT zezwól na Urządzenia w pobliżu. Po wymuszonym zatrzymaniu otwórz aplikację ponownie.|Updates use background jobs and may be delayed by Android. If delayed, set Battery → Unrestricted. On Samsung, remove the app from sleeping/deep sleeping apps and add it to Never sleeping apps. Not all One UI settings can be checked or changed automatically. Allow Nearby devices for Bluetooth. Reopen the app after a force stop.
+Ustawienia systemowe aplikacji|System app settings
+Cykliczne odświeżanie: wyłączone|Periodic refresh: off
+Odświeżanie co |Refresh every 
+ minut| minutes
+Interwał odświeżania|Refresh interval
+0 · wyłączone|0 · off
+Cyklicznie tylko dane z serwera (oszczędnie)|Periodically use server cache only (low impact)
+Aktywne odczyty mogą budzić samochód. Częste odświeżanie może zwiększać pobór energii z akumulatora 12 V. Dane z pamięci serwera mogą być starsze. Android może opóźnić pracę w tle.|Active reads may wake the car. Frequent updates may increase 12 V battery use. Server-cached data may be older. Android may delay background work.
+Aktualizuj bezpośrednio po rozłączeniu BT|Refresh immediately after Bluetooth disconnects
+Nie wybrano urządzenia Bluetooth.|No Bluetooth device selected.
+Wybrane BT:|Selected Bluetooth:
+Wybierz Bluetooth samochodu|Select car Bluetooth
+0 + wyłączone BT = wyłącznie odświeżanie na żądanie. Po uruchomieniu ogrzewania nadal sprawdzamy jego wynik. Po rozłączeniu BT najwyżej dwie dodatkowe próby, jeśli dane są stare; ponowne połączenie je anuluje.|0 + Bluetooth refresh OFF = manual refresh only. Heating commands still trigger confirmation reads. After Bluetooth disconnects, up to two retries are made for old data; reconnecting cancels them.
+Ikony w ramkach|Framed icons
+Przycisk Odśwież|Refresh button
+Przycisk Ogrzewanie|Heating button
+Odległości w milach|Distances in miles
+Poniżej około 280 dp: jedna kolumna. Powyżej: dwie. Przytrzymaj widżet na pulpicie, aby zmienić rozmiar. Dłuższą listę przewijaj palcem. Ustawienia dotyczą wszystkich instancji widżetu.|Below about 280 dp: one column; above: two. Hold the home-screen widget to resize it. Swipe to scroll longer lists. Settings apply to all widget instances.
+Dotknij kafelka, aby dodać/usunąć go z widżetu. Nowy trafia na górę. Przytrzymaj wybrany kafelek i przeciągnij, aby zmienić kolejność.|Tap a tile to add/remove it. New selections go first. Hold and drag a selected tile to reorder it.
+Alarm postoju:|Parked warning:
+. Sprawdź czerwone kafelki i czas odczytu.|. Check red tiles and reading timestamps.
+✓ Na widżecie · |✓ On widget · 
+○ Dodaj do widżetu|○ Add to widget
+, wybrany, pozycja |, selected, position 
+. Dotknij, aby usunąć; przytrzymaj, aby przenieść.|. Tap to remove; hold to move.
+, niewybrany. Dotknij, aby dodać.|, not selected. Tap to add.
+Najpierw dotknij kafelka, aby go wybrać.|Tap the tile to select it first.
+Przód lewa|Front left
+Przód prawa|Front right
+Tył lewa|Rear left
+Tył prawa|Rear right
+Odśwież|Refresh
+Ogrzewanie|Heating
+Dane przykładowe · bez połączenia z autem|Sample data · not connected to a car
+Twój morski widżet|Your sea-blue widget
+Zawartość i wygląd wszystkich instancji zmienisz w aplikacji. Zmniejsz szerokość, aby uzyskać jedną kolumnę. Kafelki można przewijać.|Change content and appearance for all widgets in the app. Reduce width for one column. Tiles can be scrolled.
+Dodaj / zapisz widżet|Add / save widget
+Zmień profil|Edit profile
+Szyba · odszranianie (22°C)|Windscreen · defrost (22°C)
+Kabina · |Cabin · 
+bez zmian|unchanged
+Wynik sprawdzimy odczytem auta. Odpowiedź może trwać kilka minut. Możesz zamknąć ten ekran; operacja będzie kontynuowana w tle.|The result will be checked by reading vehicle state. This can take a few minutes. You can close this screen; work continues in the background.
+Zlecono operację. Oczekiwanie na samochód…|Operation queued. Waiting for the vehicle…
+Uruchom zapisany profil|Start saved profile
+Zatrzymaj klimatyzację|Stop climate control
+Zatrzymanie klimatyzacji nie zmienia ustawień foteli. Aby je wyłączyć, wybierz w profilu poziom 0.|Stopping climate control does not change seat settings. Select level 0 in the profile to switch seats off.
+Wszystkie parametry auta|All vehicle parameters
+Odczytaj wszystkie parametry|Read all parameters
+Odczyty użytkowe|Display readings
+Samochód i wyposażenie|Vehicle and equipment
+Stan pojazdu i GPS|Vehicle status and GPS
+Bateria i zarządzanie ładowaniem|Battery and charging management
+Szczegóły ładowania i podróży|Charging and trip details
+Harmonogram ogrzewania baterii|Battery heating schedule
+Nie otrzymano wartości w tym odczycie|No value received in this read
+Nie otrzymano wartości w odpowiedzi|No value received in the response
+Nie otrzymano odpowiedzi:|No response received:
+Sprawdzimy odczyty stanu, ładowania, harmonogramu ogrzewania baterii i wyposażenia. Odczyt może budzić auto i potrwać kilka minut. Nie zmieniamy ustawień samochodu.|Reads vehicle status, charging, battery heating schedule and equipment. This may wake the car and take several minutes. Vehicle settings are not changed.
+Najpierw wartości użytkowe, dalej pełna lista pól tych odpowiedzi. Pola techniczne pokazują surowe wartości i kody. Brak danych nie oznacza zera ani braku wyposażenia. Wiadomości konta i dane logowania nie są częścią tego odczytu.|Display readings come first, followed by all fields in these responses. Technical fields show raw values and codes. Missing data does not mean zero or absent equipment. Account messages and credentials are excluded.
+Odczyt:|Read:
+DEMONSTRACJA, bez sieci|DEMO, offline
+Zlecono sprawdzanie parametrów…|Parameter check queued…
+Zaloguj się lub włącz podgląd demonstracyjny.|Sign in or enable demo preview.
+Zaloguj się do iSMART.|Sign in to iSMART.
+Nie udało się odczytać parametrów.|Unable to read parameters.
+Nieprawidłowy czas danych samochodu.|Invalid vehicle data timestamp.
+Brak stanu samochodu.|Vehicle status missing.
+Nieprawidłowe dane.|Invalid data.
+Wpisz login i hasło.|Enter your login and password.
+Połączono z kontem. Oczekiwanie na pierwszy odczyt.|Account connected. Waiting for the first read.
+Pobieranie samochodów (logowanie powiodło się)|Fetching vehicles (login succeeded)
+Logowanie|Login
+DEMO · przykładowe dane, bez połączenia z autem|DEMO · sample data, not connected to a car
+Wylogowano. Dane konta i samochodu zostały usunięte.|Signed out. Account and vehicle data removed.
+Operację anulowano.|Operation cancelled.
+Samochód przetwarza żądanie…|Vehicle is processing the request…
+samochód przetwarza żądanie|vehicle is processing the request
+oczekiwanie na odpowiedź (do 3 minut)|waiting for a response (up to 3 minutes)
+maks.|max.
+Sesja iSMART wygasła lub została zastąpiona. Zaloguj się ponownie.|iSMART session expired or was replaced. Sign in again.
+Sesja iSMART utracona. Zaloguj się ponownie w aplikacji.|iSMART session lost. Sign in again in the app.
+Etap 1/2: stan samochodu|Stage 1/2: vehicle status
+Etap 2/2: dane ładowania; stan auta już pobrany|Stage 2/2: charging data; vehicle status received
+Auto zwróciło dane sprzed rozłączenia BT.|Vehicle returned data from before Bluetooth disconnected.
+Stan pobrany; dane ładowania niedostępne.|Status received; charging data unavailable.
+Odczyt samochodu zakończony|Vehicle read completed
+nie otrzymano danych w limicie 3 minut. Zachowano wcześniejsze odczyty.|no data received within 3 minutes. Previous readings retained.
+Tryb demonstracyjny: nie wysłano zapytania.|Demo mode: no request sent.
+Samochód nie występuje w odpowiedzi listy.|Vehicle missing from the list response.
+Sprawdzanie parametrów|Checking parameters
+Sprawdzanie parametrów zakończone. Wyniki w aplikacji.|Parameter check completed. Results in the app.
+Sterowanie jest wyłączone w trybie DEMO.|Controls are disabled in DEMO mode.
+Sterowanie wymaga potwierdzonej serii MG4 (EH32).|Controls require a confirmed MG4 (EH32) series.
+Sterowanie wymaga konta samochodu.|Controls require a vehicle account.
+Wysyłanie profilu ogrzewania…|Sending heating profile…
+Klimatyzacja: samochód odmówił wykonania.|Climate: vehicle rejected the command.
+Klimatyzacja: brak potwierdzenia przyjęcia; nie ponowiono komendy.|Climate: acceptance not confirmed; command not repeated.
+Wyposażenie foteli nieustalone; najpierw włącz świadomy test w profilu.|Seat equipment unknown; first enable the explicit seat test in the profile.
+Niedozwolony poziom ogrzewania fotela.|Invalid seat heating level.
+Fotele: samochód odmówił wykonania.|Seats: vehicle rejected the command.
+Brak świeżego stanu drugiego fotela. Zaznacz oba fotele albo odśwież dane.|No fresh reading for the other seat. Select both seats or refresh vehicle data.
+Profil nie zawiera żadnej funkcji.|No functions selected in the profile.
+Potwierdzanie stanu samochodu|Confirming vehicle state
+Potwierdzono:|Confirmed:
+Niepotwierdzone:|Unconfirmed:
+brak potwierdzenia|not confirmed
+Nie ponowiono komendy.|Command not repeated.
+Nie ponowiono polecenia.|Command not repeated.
+Wynik sterowania niepotwierdzony.|Control result unconfirmed.
+Błąd iSMART.|iSMART error.
+Brak połączenia z iSMART. Zachowano poprzednie dane.|No iSMART connection. Previous readings retained.
+Nie udało się odczytać danych. Sprawdź połączenie lub zaloguj się ponownie.|Unable to read data. Check your connection or sign in again.
+Zaplanowano odświeżenie. Oczekiwanie na połączenie…|Refresh queued. Waiting for connection…
+Zlecono odświeżenie w tle. Oczekiwanie na sieć i samochód…|Background refresh queued. Waiting for network and vehicle…
+Przerwano sprawdzanie klimatyzacji. Stan niepotwierdzony — odśwież dane.|Climate check interrupted. State unconfirmed — refresh data.
+Przerwano operację ogrzewania. Nie ponowiono komend; odśwież stan.|Heating operation interrupted. Commands were not repeated; refresh state.
+Wynik niepotwierdzony. Odśwież stan.|Result unconfirmed. Refresh state.
+Otwórz aplikację i zaakceptuj ryzyko korzystania.|Open the app and accept the usage risks.
+Nie udało się zalogować do iSMART.|Unable to sign in to iSMART.
+Brak potwierdzenia w ciągu 180 sekund.|No confirmation within 180 seconds.
+iSMART: błąd HTTP |iSMART: HTTP error 
+Pusta odpowiedź iSMART.|Empty iSMART response.
+iSMART: kod błędu |iSMART: error code 
+iSMART: kod |iSMART: code 
+Sprawdź sesję lub uprawnienia konta.|Check session or account permissions.
+Serwer nie podał opisu.|Server provided no description.
+iSMART nie potwierdził wyniku w wyznaczonym czasie.|iSMART did not confirm the result within the time limit.
+Przekroczono czas oczekiwania na samochód.|Vehicle response timed out.
+wersja testowa|test version
+Kolejność kafelków|Tile order
+Najpierw włącz kafelki na poprzednim ekranie.|Select tiles on the previous screen first.
+Przeciągnij:|Drag:
+przesuń w górę|move up
+przesuń w dół|move down
+anulowano|cancelled
+brak|none
+Brak danych w odpowiedzi iSMART.|No data in the iSMART response.
+Na koncie nie znaleziono samochodu.|No vehicle found on the account.
+Nie odczytano:|Not read:
+Nie otrzymano odpowiedzi.|No response received.
+Odczyt z serwera · bez budzenia auta|Server cache read · without waking the car
+Pobieranie danych…|Fetching data…
+Poprzednie polecenie jest jeszcze przetwarzane.|The previous command is still being processed.
+Stan zapisany na serwerze|Server-cached state
+Wybierz kafelki w aplikacji|Select tiles in the app
+Wybierz kafelki|Select tiles
+pozycja|position
+Trwa|In progress
+Przytrzymaj ☰ i upuść na wybranym kafelku albo użyj strzałek. Dwie kolumny: od lewej do prawej, następnie kolejny wiersz. Jedna kolumna: od góry do dołu.|Hold ☰ and drop onto a tile, or use the arrows. Two columns read left to right, then down; one column reads top to bottom.

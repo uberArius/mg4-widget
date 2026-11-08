@@ -1,0 +1,37 @@
+{
+  "requests": [
+    {
+      "path": "/oauth/token",
+      "body": "grant_type=password&username=test%40example.com&password=not-a-real-password",
+      "type": "application/x-www-form-urlencoded",
+      "token": "",
+      "timestamp": "1700000000000",
+      "encrypted": "2d5719119cfea6563e52ebffeb600a2dae30034496743a789edc7937bf9715144dee68bf7e9a44fab19f9309098d636e5e5035f843d26ba4b945f3dcaa5c700ef864e99567c69fc432c1f999da139464",
+      "signature": "bb924848d612047451dfa0a6a17a9493d6463640dcf10a4198430b9a927f7659"
+    },
+    {
+      "path": "/vehicle/status?vin=example&vehStatusReqType=2",
+      "body": "",
+      "type": "application/json",
+      "token": "test-token",
+      "timestamp": "1700000000000",
+      "encrypted": "",
+      "signature": "b2b180fef47693ff772c0a43d84f9675f58037a0368c525f1571c66b6e7b978f"
+    },
+    {
+      "path": "/vehicle/control",
+      "body": "{\"rvcReqType\":\"6\",\"vin\":\"example\",\"rvcParams\":[]}",
+      "type": "application/json",
+      "token": "test-token",
+      "timestamp": "1700000000000",
+      "encrypted": "b4a0f6c917abc72141da9af22e28fb5d4a198565235c0e31ac1debdd472ffa34d1ed2a9fc001a49f576e0365748f376925ce85a1f3b58ee5bd67329a03f0ee49",
+      "signature": "4c4b9640594fb9295d4e42991f5c394f1c95f3e596161c42648b9e55efa8d31b"
+    }
+  ],
+  "response": {
+    "plain": "{\"code\":0,\"data\":{\"statusTime\":1700000000,\"basicVehicleStatus\":{\"extendedData1\":76}}}",
+    "encrypted": "9f9c6678559395ddb2c4e6690e6ad612be4403d213f40596ee0d98bfc6d35d9a32719ad41b452ddadc64da28e7cab7e0ed514c5f9cca7b8cd2bfa0c72b05915cf6ef9d8b61040781e7aef1722ec6b5e28a27a864d008734378dff125de11a95e",
+    "timestamp": "1700000000000",
+    "type": "application/json"
+  }
+}

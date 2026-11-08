@@ -1,0 +1,6 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="16dp" android:background="@drawable/widget_background">
+    <TextView android:id="@+id/widget_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="MG4 · BATERIA" android:textColor="#B9F56B" android:textSize="11sp" />
+    <TextView android:id="@+id/mini_soc" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:gravity="center_vertical" android:text="—" android:textColor="#F4F7F3" android:textSize="36sp" android:fontFamily="sans-serif-light" />
+    <TextView android:id="@+id/mini_time" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#A9B9AF" android:textSize="10sp" />
+    <TextView android:id="@+id/widget_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#A9B9AF" android:textSize="9sp" android:maxLines="2" android:ellipsize="end" />
+</LinearLayout>

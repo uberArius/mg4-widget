@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/field_root" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="58dp" android:orientation="horizontal" android:gravity="center_vertical" android:padding="5dp" android:background="@drawable/tile_background">
+ <ImageView android:id="@+id/field_icon" android:layout_width="32dp" android:layout_height="32dp" android:padding="6dp" android:background="@drawable/icon_frame" android:src="@drawable/ic_battery" android:importantForAccessibility="no"/>
+ <LinearLayout android:id="@+id/field_content" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:orientation="vertical" android:paddingStart="7dp">
+  <TextView android:id="@+id/field_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#DBEEF8" android:textSize="11sp" android:maxLines="2"/>
+  <TextView android:id="@+id/field_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#F4FAFF" android:textSize="18sp" android:fontFamily="sans-serif-medium" android:maxLines="2"/>
+  <TextView android:id="@+id/field_time" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#9CC2D5" android:textSize="9sp" android:maxLines="2"/>
+ </LinearLayout>
+</LinearLayout>
