@@ -20,7 +20,9 @@ Build a ready-to-install version of the app for my phone and provide step-by-ste
 
 ### Screenshots
 
-![Widget on the home screen — English](docs/screenshots/widget-preview-en.png)
+![Widget on the home screen — English](docs/screenshots/widget-en-1.png)
+
+![Widget on the home screen — English](docs/screenshots/widget-en-2.png)
 
 ![App dashboard — English](docs/screenshots/app-v08-en.png)
 
@@ -94,7 +96,9 @@ Zbuduj gotową do zainstalowania wersję aplikacji na mój telefon i przygotuj s
 
 ### Zrzuty ekranu
 
-![Widżet na pulpicie — angielski](docs/screenshots/widget-preview-en.png)
+![Widżet na pulpicie — angielski](docs/screenshots/widget-en-1.png)
+
+![Widżet na pulpicie — angielski](docs/screenshots/widget-en-2.png)
 
 ![Pulpit aplikacji — angielski](docs/screenshots/app-v08-en.png)
 
