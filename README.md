@@ -8,6 +8,16 @@
 
 An independent Android app and home-screen widget for MG iSMART vehicles (EU/UK and AU/NZ). It talks directly to the iSMART API — no MQTT broker and no personal server. The UI is available in Polish and English.
 
+This project was created using AI. If you don't trust the pre-built app, or if you'd like to add features or make changes, just fire up your own AI agent and give it a prompt like this:
+
+"I want to build the app from this project myself: https://github.com/uberArius/mg4-widget
+
+Review the project for security vulnerabilities, suspicious code, and any potential connections to external addresses or servers beyond those strictly required for the app to function.
+
+Then, add a green-themed color scheme and a yellow rubber duck as the app's logo.
+
+Build a ready-to-install version of the app for my phone and provide step-by-step instructions on how to install it on my specific phone model."
+
 ### Screenshots
 
 ![Widget on the home screen — English](docs/screenshots/widget-preview-en.png)
